@@ -1,0 +1,187 @@
+.wrapper {
+    width: 70%;
+    height: 80%;
+    background-color: #eac318;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    position: relative;
+
+    .color {
+        width: 27%;
+        height: 100%;
+        background-color: #eac318;
+        color: rgba(255, 99, 132, 0.2);
+    }
+
+    .white {
+        width: 73%;
+        height: 100%;
+        background-color: #fff;
+    }
+
+    .nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 1% 2%;
+
+        button {
+            font-size: 1.5rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+    .profile {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        width: 90%;
+        height: 80%;
+        flex-direction: row;
+
+        .picture {
+            width: 50%;
+            height: 100%;
+            padding: 0 2%;
+
+            .img {
+                width: 100%;
+                height: 85%;
+                background-color: rgba(128, 128, 128, 0.5);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    height: 95%;
+                    width: 95%;
+                }
+            }
+
+            .label {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                height: 15%;
+
+                p {
+                    width: 70%;
+                    height: 100%;
+                    background-color: black;
+                    color: #eac318;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    font-size: 1.2rem;
+                }
+
+                .color {
+                    width: 30%;
+                }
+            }
+        }
+
+        .info {
+            width: 50%;
+            height: 100%;
+            padding: 0 4%;
+            display: flex;
+            flex-direction: column;
+
+            .name {
+                height: 15%;
+
+                h2 {
+                    font-size: 3rem;
+                }
+            }
+
+            .institude {
+                height: 20%;
+                font-size: 1.5rem;
+            }
+
+            .code {
+                height: 10%;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+
+                h6 {
+                    width: 30%;
+                    font-size: 1.3rem;
+                }
+
+                p {
+                    width: 70%;
+                    font-size: 1.5rem;
+                }
+            }
+
+            .major {
+                height: 10%;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+
+                h6 {
+                    width: 30%;
+                    font-size: 1.3rem;
+                }
+
+                p {
+                    width: 70%;
+                    font-size: 1.5rem;
+                }
+            }
+
+            .des {
+                height: 30%;
+                display: flex;
+                flex-direction: column;
+                h6 {
+                    height: 20%;
+                    font-size: 1.3rem;
+                }
+
+                p {
+                    height: 80%;
+                    font-size: 1.5rem;
+                }
+            }
+
+            .deco {
+                height: 15%;
+                display: flex;
+                flex-direction: row;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+                .white {
+                    width: 50%;
+                    background-color: #fff;
+                }
+
+                .color {
+                    width: 50%;
+                    background-color: #eac318;
+                }
+            }
+        }
+    }
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-color: #eac318;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
